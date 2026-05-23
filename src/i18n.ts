@@ -38,7 +38,8 @@ const resources = {
           'Manage inventory, receive orders',
           'Earn currency from sales',
           'Pay platform commissions',
-          'Optional subscription for lower rates'
+          'Optional subscription for lower rates',
+          'Merchant onboarding support'
         ],
         driver: 'Driver / Rider',
         driverDesc: 'Earn money with rides and deliveries',
@@ -48,7 +49,8 @@ const resources = {
           'Accept ride/delivery requests',
           'Earn currency from completed services',
           '10% commission per transaction',
-          'Optional subscription for lower commissions'
+          'Optional subscription for lower commissions',
+          'Driver recruitment bonuses'
         ]
       },
       benefits: {
@@ -88,7 +90,7 @@ const resources = {
         download: 'Get App'
       },
       hero: {
-        title: 'MOVE EE\NDIDA LIFKA',
+        title: 'MOVE EE\nDIDA LIFKA',
         subtitle: 'Super App-ka',
         description: 'Experience urban mobility 1000% redefined. App keliya wado, cunto,ader, iyo more.',
         cta: 'Hadda Degso'
@@ -108,33 +110,35 @@ const resources = {
           'Referral credits'
         ],
         merchant: 'Dukaaneer / Store',
-        merchantDesc: 'Korporusha ganacsigaagaarka',
+        merchantDesc: 'Korporusha ganacsigaagaarka adan milic badan',
         merchantFeatures: [
           'Soo geli sawirrada, qiimaha dhig',
           'Maaree inventory-ga, geli dalbasho',
           'Hesho lacag ka ganacsatada',
           'Bixiicommission-ga platform-ka',
-          'Xisaabinta ikhtiyaariga ah'
+          'Xisaabinta ikhtiyaariga ah',
+          'Taageerada merchant onboarding'
         ],
         driver: 'Darawalka / Rider',
-        driverDesc: 'Soo haayso lacagtaada',
+        driverDesc: 'Soo haayso lacagtaada adiga oo wadayn ama soo-gurin',
         driverFeatures: [
           'Hay account balance-kaaga',
           'Ishiiska mobile money',
-          'Aqbal dalbashooyinka',
+          'Aqbal dalbashooyinka wado/soo-guri',
           'Hesho lacag ka shaqo-dhamaystiran',
-          '10% commission-ga',
-          'Xisaabinta ikhtiyaariga ah'
+          '10% commission-ga shaqo kasta',
+          'Xisaabinta ikhtiyaariga ah',
+          'Bonus-yasha recruitment-ka'
         ]
       },
       benefits: {
         title: 'Dooro Jidadkaaga',
         customerTitle: 'Macmiil',
         customerFor: 'Qof kasta oo u baahan wado, cunto,ader.',
-        merchantTitle: 'Dukaaneer',
-        merchantFor: 'Restaurants, dukaamada iyo ganacsiyada.',
-        driverTitle: 'Darawalka',
-        driverFor: 'Darawallada doonaya in ay soo haaystaan lacag.',
+        merchantTitle: 'Dukaaneer / Store',
+        merchantFor: 'Restaurants, dukaamada, iyo ganacsiyada ee doonaya in ay gaadhaan macmiileen badan.',
+        driverTitle: 'Darawalka / Rider',
+        driverFor: 'Darawallada gaadiidka ee doonaya in ay soo haaystaan lacag.',
       },
       download: {
         title: 'Hadda Degso',
@@ -176,39 +180,42 @@ const resources = {
         customer: 'عميل',
         customerDesc: 'تسوق،اركب،وشغّل - كل شيء في مكان واحد',
         customerFeatures: [
-          'تصفح المطاعم والمواد الغذائية',
-          'أضف للسلة والدفع',
+          'تصفح المطاعم والمواد الغذائية والصيدليات',
+          'أضف للسلة والدفع بالعملة المحلية',
           'اطلب ركوب أو توصيل',
           'شراء الرصيد عبر المحفظة',
-          'اشتراك اختياري'
+          'اشتراك اختياري للمزايا',
+          'رصيد الإحالة'
         ],
         merchant: 'تاجر / متجر',
-        merchantDesc: 'نمّ أعمالك مع العملاء',
+        merchantDesc: 'نمّ أعمالك مع آلاف العملاء',
         merchantFeatures: [
-          'ارفع صور المنتجات وحدد الأسعار',
+          'ارفع صور المنتجات وحدد الأسعار بالعملة',
           'إدارة المخزون واستلام الطلبات',
-          'اكسب المال من المبيعات',
+          'Earn currency from المبيعات',
           'دفع عمولات المنصة',
-          'اشتراك اختياري'
+          'اشتراك اختياري لأسعار أقل',
+          'دعم تسجيل التجار'
         ],
         driver: 'سائق / رايدر',
-        driverDesc: 'اربح المال من الركوب',
+        driverDesc: 'اربح المال من الركوب والتوصيل',
         driverFeatures: [
           'حافظ على رصيد الحساب',
           'شراء الرصيد عبر المحفظة',
-          'قبول طلبات الركوب',
-          'اربح المال من الخدمات',
-          '10% عمولة',
-          'اشتراك اختياري'
+          'قبول طلبات الركوب والتوصيل',
+          'Earn currency من الخدمات المكتملة',
+          '10% عمولة لكل معاملة',
+          'اشتراك اختياري لعمولات أقل',
+          'مكافآت توظيف السائقين'
         ]
       },
       benefits: {
         title: 'اختر طريقتك',
         customerTitle: 'عميل',
-        customerFor: 'كل من يحتاج ركوب أو طعام.',
-        merchantTitle: 'تاجر',
-        merchantFor: 'المطاعم والمحلات.',
-        driverTitle: 'سائق',
+        customerFor: 'كل من يحتاج ركوب أو طعام أو توصيل.',
+        merchantTitle: 'تاجر / متجر',
+        merchantFor: 'المطاعم والمحلات التجارية التي تريد الوصول لمزيد من العملاء.',
+        driverTitle: 'سائق / رايدر',
         driverFor: 'السائقون الذين يريدون الدخل.',
       },
       download: {
