@@ -13,12 +13,12 @@ const resources = {
       },
       hero: {
         title: 'MOVE AT THE\nSPEED OF LIFE',
-        subtitle: 'The Super App Revolution',
-        description: 'Experience urban mobility 1000% redefined. One app for rides, food, groceries, deliveries, and more.',
+        subtitle: "Somalia's Super App",
+        description: 'One app for rides, food delivery, car rental and more. Starting from Las Anod, expanding to all major cities in Somalia.',
         cta: 'Download Now'
       },
       services: {
-        subtitle: 'SERVICES',
+        subtitle: 'OUR SERVICES',
         title: 'One App, Three Ways to Use',
         description: 'Choose your path and start using today',
         customer: 'Customer',
@@ -38,7 +38,8 @@ const resources = {
           'Manage inventory, receive orders',
           'Earn currency from sales',
           'Pay platform commissions',
-          'Optional subscription for lower rates'
+          'Optional subscription for lower rates',
+          'Merchant onboarding support'
         ],
         driver: 'Driver / Rider',
         driverDesc: 'Earn money with rides and deliveries',
@@ -48,17 +49,9 @@ const resources = {
           'Accept ride/delivery requests',
           'Earn currency from completed services',
           '10% commission per transaction',
-          'Optional subscription for lower commissions'
+          'Optional subscription for lower commissions',
+          'Driver recruitment bonuses'
         ]
-      },
-      benefits: {
-        title: 'Choose Your Path',
-        customerTitle: 'Customer',
-        customerFor: 'Everyone who needs rides, food, groceries, or deliveries.',
-        merchantTitle: 'Store / Merchant',
-        merchantFor: 'Restaurants, shops, and businesses wanting to reach more customers.',
-        driverTitle: 'Driver / Rider',
-        driverFor: 'Drivers with vehicles who want to earn income.',
       },
       download: {
         title: 'Download Now',
@@ -67,11 +60,11 @@ const resources = {
         size: '~120 MB'
       },
       footer: {
-        copyright: '© 2026 Haye! Mobility Global Inc. | Designed for the Next Billion',
-        description: 'Designing the architecture of urban movement. Leading the evolution from Eazyride to the worlds most trusted Super App.',
+        copyright: '© 2026 Haye! EazyRide Somalia | Building the Future of Transportation',
+        description: 'Transforming urban mobility across Somalia. Starting with Las Anod, expanding everywhere.',
         contact: 'Contact',
         support: 'Support Center',
-        press: 'Press Relations',
+        press: 'Partners',
         safety: 'Safety Hub',
         newsletter: 'Newsletter',
         newsletterDesc: 'Stay updated with our latest city launches and features.'
@@ -88,9 +81,9 @@ const resources = {
         download: 'Get App'
       },
       hero: {
-        title: 'MOVE EE\NDIDA LIFKA',
-        subtitle: 'Super App-ka',
-        description: 'Experience urban mobility 1000% redefined. App keliya wado, cunto,ader, iyo more.',
+        title: 'MOVE EE\nDIDA LIFKA',
+        subtitle: 'Super App-ka Soomaaliya',
+        description: 'App keliya wado, cunto, iyo more. Las Anod ayay bilowdoontaa, waxayna ku fidi doontaa magaalooyinka Somalia.',
         cta: 'Hadda Degso'
       },
       services: {
@@ -108,33 +101,26 @@ const resources = {
           'Referral credits'
         ],
         merchant: 'Dukaaneer / Store',
-        merchantDesc: 'Korporusha ganacsigaagaarka',
+        merchantDesc: 'Korporusha ganacsigaagaarka adan milic badan',
         merchantFeatures: [
           'Soo geli sawirrada, qiimaha dhig',
           'Maaree inventory-ga, geli dalbasho',
           'Hesho lacag ka ganacsatada',
           'Bixiicommission-ga platform-ka',
-          'Xisaabinta ikhtiyaariga ah'
+          'Xisaabinta ikhtiyaariga ah',
+          'Taageerada merchant onboarding'
         ],
         driver: 'Darawalka / Rider',
-        driverDesc: 'Soo haayso lacagtaada',
+        driverDesc: 'Soo haayso lacagtaada adiga oo wadayn ama soo-gurin',
         driverFeatures: [
           'Hay account balance-kaaga',
           'Ishiiska mobile money',
-          'Aqbal dalbashooyinka',
+          'Aqbal dalbashooyinka wado/soo-guri',
           'Hesho lacag ka shaqo-dhamaystiran',
-          '10% commission-ga',
-          'Xisaabinta ikhtiyaariga ah'
+          '10% commission-ga shaqo kasta',
+          'Xisaabinta ikhtiyaariga ah',
+          'Bonus-yasha recruitment-ka'
         ]
-      },
-      benefits: {
-        title: 'Dooro Jidadkaaga',
-        customerTitle: 'Macmiil',
-        customerFor: 'Qof kasta oo u baahan wado, cunto,ader.',
-        merchantTitle: 'Dukaaneer',
-        merchantFor: 'Restaurants, dukaamada iyo ganacsiyada.',
-        driverTitle: 'Darawalka',
-        driverFor: 'Darawallada doonaya in ay soo haaystaan lacag.',
       },
       download: {
         title: 'Hadda Degso',
@@ -143,11 +129,11 @@ const resources = {
         size: '~120 MB'
       },
       footer: {
-        copyright: '© 2026 Haye! Mobility Global Inc.',
+        copyright: '© 2026 Haye! EazyRide Somalia',
         description: 'Designing the architecture of urban movement.',
         contact: 'Xidhiidhinta',
         support: 'Taageerada',
-        press: 'Warbaahinta',
+        press: 'Partners',
         safety: 'Badbaadinta',
         newsletter: 'Warbixin',
         newsletterDesc: 'Stay updated with our latest launches.'
@@ -165,8 +151,8 @@ const resources = {
       },
       hero: {
         title: 'تحرك بسرعة\nالحياة',
-        subtitle: 'تطبيق السوبر',
-        description: 'تطبيق واحد للركوب والطعام والتوصيل والمزيد.',
+        subtitle: 'تطبيق الصومال',
+        description: 'تطبيق واحد للركوب والطعام والمزيد. نبدأ من ليس انود ونوسع لجميع المدن.',
         cta: 'تحميل الآن'
       },
       services: {
@@ -176,40 +162,34 @@ const resources = {
         customer: 'عميل',
         customerDesc: 'تسوق،اركب،وشغّل - كل شيء في مكان واحد',
         customerFeatures: [
-          'تصفح المطاعم والمواد الغذائية',
-          'أضف للسلة والدفع',
+          'تصفح المطاعم والمواد الغذائية والصيدليات',
+          'أضف للسلة والدفع بالعملة المحلية',
           'اطلب ركوب أو توصيل',
           'شراء الرصيد عبر المحفظة',
-          'اشتراك اختياري'
+          'اشتراك اختياري للمزايا',
+          'رصيد الإحالة'
         ],
         merchant: 'تاجر / متجر',
-        merchantDesc: 'نمّ أعمالك مع العملاء',
+        merchantDesc: 'نمّ أعمالك مع آلاف العملاء',
         merchantFeatures: [
-          'ارفع صور المنتجات وحدد الأسعار',
+          'ارفع صور المنتجات وحدد الأسعار بالعملة',
           'إدارة المخزون واستلام الطلبات',
-          'اكسب المال من المبيعات',
+          'Earn currency from المبيعات',
           'دفع عمولات المنصة',
-          'اشتراك اختياري'
+          'اشتراك اختياري لأسعار أقل',
+          'دعم تسجيل التجار'
         ],
         driver: 'سائق / رايدر',
-        driverDesc: 'اربح المال من الركوب',
+        driverDesc: 'اربح المال من الركوب والتوصيل',
         driverFeatures: [
           'حافظ على رصيد الحساب',
           'شراء الرصيد عبر المحفظة',
-          'قبول طلبات الركوب',
-          'اربح المال من الخدمات',
-          '10% عمولة',
-          'اشتراك اختياري'
+          'قبول طلبات الركوب والتوصيل',
+          'Earn currency من الخدمات المكتملة',
+          '10% عمولة لكل معاملة',
+          'اشتراك اختياري لعمولات أقل',
+          'مكافآت توظيف السائقين'
         ]
-      },
-      benefits: {
-        title: 'اختر طريقتك',
-        customerTitle: 'عميل',
-        customerFor: 'كل من يحتاج ركوب أو طعام.',
-        merchantTitle: 'تاجر',
-        merchantFor: 'المطاعم والمحلات.',
-        driverTitle: 'سائق',
-        driverFor: 'السائقون الذين يريدون الدخل.',
       },
       download: {
         title: 'تحميل الآن',
@@ -218,11 +198,11 @@ const resources = {
         size: '~120 MB'
       },
       footer: {
-        copyright: '© 2026 Haye! Mobility Global Inc.',
+        copyright: '© 2026 Haye! EazyRide Somalia',
         description: 'تصميم حركة حضرية.',
         contact: 'التواصل',
         support: 'الدعم',
-        press: 'الصحافة',
+        press: 'الشركاء',
         safety: 'الامان',
         newsletter: 'النشرة',
         newsletterDesc: 'ابق على اطلاع باخر اخبارنا.'
