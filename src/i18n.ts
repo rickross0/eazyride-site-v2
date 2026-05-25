@@ -9,93 +9,72 @@ const resources = {
         howItWorks: 'How it Works',
         safety: 'Safety',
         earnings: 'Earnings',
-        download: 'Get App',
-        partners: 'Partners'
+        download: 'Get App'
       },
       hero: {
         title: 'MOVE AT THE\nSPEED OF LIFE',
-        subtitle: 'Somalia\'s Super App',
-        description: 'One app for rides, food delivery, car rental and more. Starting from Las Anod, expanding to all major cities in Somalia.',
+        subtitle: 'The Super App Revolution',
+        description: 'Experience urban mobility 1000% redefined. One app for rides, food, groceries, deliveries, and more.',
         cta: 'Download Now'
       },
       services: {
-        subtitle: 'OUR SERVICES',
-        title: 'Everything You Need, One App',
-        description: 'From daily commutes to food delivery - we\'ve got you covered',
-        customer: 'Riders',
-        customerDesc: 'Request rides, order food, rent cars - all in one place',
+        subtitle: 'SERVICES',
+        title: 'One App, Three Ways to Use',
+        description: 'Choose your path and start using today',
+        customer: 'Customer',
+        customerDesc: 'Shop, ride, and deliver - all in one place',
         customerFeatures: [
-          'Request rides (Bajaj & Car)',
-          'Order food from local restaurants',
-          'Rent cars for self-drive',
-          'Real-time ride tracking',
-          'In-app wallet payments',
-          'SOS emergency button'
+          'Browse restaurants, groceries, pharmacies',
+          'Add items to cart, checkout with currency',
+          'Request rides or deliveries',
+          'Purchase credits via mobile money',
+          'Optional subscription for perks',
+          'Referral credits'
         ],
-        merchant: 'Stores & Restaurants',
+        merchant: 'Store / Merchant',
         merchantDesc: 'Grow your business with thousands of customers',
         merchantFeatures: [
-          'List your products and menu',
-          'Receive orders in real-time',
-          'NFC & PIN order verification',
-          'Track deliveries',
-          'Manage inventory',
-          'Secure payment processing'
+          'Upload products, set prices in currency',
+          'Manage inventory, receive orders',
+          'Earn currency from sales',
+          'Pay platform commissions',
+          'Optional subscription for lower rates'
         ],
-        driver: 'Drivers',
-        driverDesc: 'Earn income with rides and deliveries',
+        driver: 'Driver / Rider',
+        driverDesc: 'Earn money with rides and deliveries',
         driverFeatures: [
-          'Accept ride & delivery requests',
-          'Real-time navigation',
-          'Earn based on distance/time',
-          'Weekly earnings dashboard',
-          'Vehicle management',
-          'Instant wallet withdrawals'
+          'Maintain account balance in credits',
+          'Purchase credits via mobile money',
+          'Accept ride/delivery requests',
+          'Earn currency from completed services',
+          '10% commission per transaction',
+          'Optional subscription for lower commissions'
         ]
       },
-      location: {
-        subtitle: 'OUR REACH',
-        title: 'Starting in Las Anod, Expanding Across Somalia',
-        description: 'We are currently live in Las Anod with plans to expand to all major cities in Somalia, including Mogadishu and beyond.',
-        firstCity: 'First City',
-        lasAnod: 'Las Anod',
-        comingSoon: 'Coming Soon',
-        cities: ['Mogadishu', 'Hargeisa', 'Bosaso', 'Berbera', 'Kismayo', 'Baidoa', 'Galkayo', 'Beledweyne']
-      },
-      partners: {
-        subtitle: 'INVESTMENT OPPORTUNITY',
-        title: 'Partner With Us',
-        description: 'Join us in bringing modern transportation to cities across Somalia. We are seeking local partners to invest in their cities.',
-        investorTitle: 'Become a City Partner',
-        investorDesc: 'Invest in your city and own a stake in the local operations',
-        benefits: [
-          '35% ownership stake in your city',
-          'Proven technology platform',
-          'Brand recognition & support',
-          'Training & operations guidance',
-          'Ongoing technical support'
-        ],
-        shareTitle: 'Investment Structure',
-        investorShare: '35% - Investor',
-        eazyrideShare: '65% - EazyRide',
-        cta: 'Apply Now'
+      benefits: {
+        title: 'Choose Your Path',
+        customerTitle: 'Customer',
+        customerFor: 'Everyone who needs rides, food, groceries, or deliveries.',
+        merchantTitle: 'Store / Merchant',
+        merchantFor: 'Restaurants, shops, and businesses wanting to reach more customers.',
+        driverTitle: 'Driver / Rider',
+        driverFor: 'Drivers with vehicles who want to earn income.',
       },
       download: {
-        title: 'Get Started',
-        subtitle: 'Download the EazyRide Super App',
+        title: 'Download Now',
+        subtitle: 'Get the EazyRide Super App',
         button: 'Download APK',
         size: '~120 MB'
       },
       footer: {
-        copyright: '© 2026 Haye! EazyRide Somalia | Building the Future of Transportation',
-        description: 'Transforming urban mobility across Somalia. Starting with Las Anod, expanding everywhere.',
+        copyright: '© 2026 Haye! Mobility Global Inc. | Designed for the Next Billion',
+        description: 'Designing the architecture of urban movement. Leading the evolution from Eazyride to the worlds most trusted Super App.',
         contact: 'Contact',
-        support: 'Support',
-        press: 'Partners',
-        safety: 'Safety',
+        support: 'Support Center',
+        press: 'Press Relations',
+        safety: 'Safety Hub',
         newsletter: 'Newsletter',
-        newsletterDesc: 'Stay updated with our latest city launches.',
-        email: 'contact@eazyride.so'
+        newsletterDesc: 'Stay updated with our latest city launches and features.'
       }
     }
   },
@@ -106,93 +85,72 @@ const resources = {
         howItWorks: 'Sidee Ay U Shaqeysaa',
         safety: 'Badbaadinta',
         earnings: 'Heshiyayaasha',
-        download: 'Get App',
-        partners: 'Bulshayaal'
+        download: 'Get App'
       },
       hero: {
-        title: 'MOVE EE\nDIDA LIFKA',
-        subtitle: 'Super App-ka Soomaaliya',
-        description: 'App keliya wado, cunto, iyo more. Las Anod ayay bilowdoontaa,waxayna ku fidi doontaa magaalooyinka Somaliland.',
+        title: 'MOVE EE\NDIDA LIFKA',
+        subtitle: 'Super App-ka',
+        description: 'Experience urban mobility 1000% redefined. App keliya wado, cunto,ader, iyo more.',
         cta: 'Hadda Degso'
       },
       services: {
         subtitle: 'ADEEGINTA',
-        title: 'Wax Walba Aaad U Bahday, App Keliya',
-        description: 'Ka soo bidi kasta ilaa cunto - waxaanu kugulaagnay',
-        customer: 'Riders',
-        customerDesc: 'Dalbo wado, order cunto, iyo rental gadiid - dhamaan hal meel',
+        title: 'App keliya, Saddex Shaqo',
+        description: 'Dooro jidadkaaga oo bilow isticmaalka',
+        customer: 'Macmiil',
+        customerDesc: 'Iibso, wado, ama soo/guri - dhamaan hal meel',
         customerFeatures: [
-          'Dalbo wadooyin (Bajaj & Car)',
-          'Order cunto卫生部 restaurants',
-          'Rent gadiid ama',
-          'Track wado real-time',
-          'Bixinta app-ka',
-          'Badbaadinta SOS'
+          'Raadi malays, yaabaha, pharmacy-ga',
+          'Ku dar dukumoobiyaha, iibso',
+          'Wado ama soo-guri dalbasho',
+          'Ishiiska mobile money',
+          'Xisaabinta ikhtiyaariga ah',
+          'Referral credits'
         ],
-        merchant: 'Dukaamada & Restaurant',
-        merchantDesc: 'Korporusha ganacsigaagaarka adan milic badan',
+        merchant: 'Dukaaneer / Store',
+        merchantDesc: 'Korporusha ganacsigaagaarka',
         merchantFeatures: [
-          'Soo geli alaabtaada',
-          'Hel orders real-time',
-          'NFC & PIN verification',
-          'Track deliveries',
-          'Maaree inventory',
-          'Bixinta安全'
+          'Soo geli sawirrada, qiimaha dhig',
+          'Maaree inventory-ga, geli dalbasho',
+          'Hesho lacag ka ganacsatada',
+          'Bixiicommission-ga platform-ka',
+          'Xisaabinta ikhtiyaariga ah'
         ],
-        driver: 'Darawallada',
-        driverDesc: 'Soo haayso lacagtaada wadooyinka iyo deliveries',
+        driver: 'Darawalka / Rider',
+        driverDesc: 'Soo haayso lacagtaada',
         driverFeatures: [
-          'Aqbal ride & delivery requests',
-          'Navigation real-time',
-          'Earn based distance/time',
-          'Dashboard earnings',
-          'Maaree gaadiidka',
-          'Withdrawals'
+          'Hay account balance-kaaga',
+          'Ishiiska mobile money',
+          'Aqbal dalbashooyinka',
+          'Hesho lacag ka shaqo-dhamaystiran',
+          '10% commission-ga',
+          'Xisaabinta ikhtiyaariga ah'
         ]
       },
-      location: {
-        subtitle: 'GOOBINTA',
-        title: 'Las Anod Oo Bilow ah, Oo Ku Fidinta Somalia',
-        description: 'Waxaanu niyadsanay Las Anod waxaana plans ku fidinaysaa magaalooyinka Somaliland oo dhan.',
-        firstCity: 'Magaalada Koowaad',
-        lasAnod: 'Las Anod',
-        comingSoon: 'ima soo bandhigin',
-        cities: ['Mogadishu', 'Hargeisa', 'Bosaso', 'Berbera', 'Kismayo', 'Baidoa', 'Galkayo', 'Beledweyne']
-      },
-      partners: {
-        subtitle: 'FURSAD SOSAASH',
-        title: 'Nagu Soo Biir',
-        description: 'Noogu soo biir waxaanu u keenaynaa transporyasha casriga ah magaalooyinka Soomaaliya. Waxaanu raadineynaa partners local si ay ugu investaan magaalooyinkooda.',
-        investorTitle: 'Noqo Partner Magaalada',
-        investorDesc: 'Invest your city and own stake local operations',
-        benefits: [
-          '35% stake magaaldaada',
-          'Platform technology',
-          'Brand recognition & support',
-          'Training & guidance',
-          'Technical support'
-        ],
-        shareTitle: 'Investment Structure',
-        investorShare: '35% - Investor',
-        eazyrideShare: '65% - EazyRide',
-        cta: 'Apply Now'
+      benefits: {
+        title: 'Dooro Jidadkaaga',
+        customerTitle: 'Macmiil',
+        customerFor: 'Qof kasta oo u baahan wado, cunto,ader.',
+        merchantTitle: 'Dukaaneer',
+        merchantFor: 'Restaurants, dukaamada iyo ganacsiyada.',
+        driverTitle: 'Darawalka',
+        driverFor: 'Darawallada doonaya in ay soo haaystaan lacag.',
       },
       download: {
-        
-        title: 'Super App-ka soo degso',
+        title: 'Hadda Degso',
+        subtitle: 'Super App-ka soo degso',
         button: 'Soo Degso APK',
         size: '~120 MB'
       },
       footer: {
-        copyright: '© 2026 Haye! EazyRide Somalia',
-        description: 'Transforming urban mobility.',
+        copyright: '© 2026 Haye! Mobility Global Inc.',
+        description: 'Designing the architecture of urban movement.',
         contact: 'Xidhiidhinta',
         support: 'Taageerada',
-        press: 'Partners',
+        press: 'Warbaahinta',
         safety: 'Badbaadinta',
         newsletter: 'Warbixin',
-        newsletterDesc: 'Stay updated.',
-        email: 'contact@eazyride.so'
+        newsletterDesc: 'Stay updated with our latest launches.'
       }
     }
   },
@@ -203,92 +161,71 @@ const resources = {
         howItWorks: 'كيف يعمل',
         safety: 'الامان',
         earnings: 'الارباح',
-        download: 'تحميل',
-        partners: 'الشركاء'
+        download: 'تحميل التطبيق'
       },
       hero: {
         title: 'تحرك بسرعة\nالحياة',
-        subtitle: 'تطبيق الصومال',
-        description: 'تطبيق واحد للركوب والطعام والمزيد. نبدأ من ليس انود ونوسع لجميع المدن.',
+        subtitle: 'تطبيق السوبر',
+        description: 'تطبيق واحد للركوب والطعام والتوصيل والمزيد.',
         cta: 'تحميل الآن'
       },
       services: {
-        subtitle: 'خدماتنا',
-        title: 'كل ما تحتاجه في تطبيق واحد',
-        description: 'من الركوب اليومي لتوصيل الطعام - نحن هنا',
-        customer: 'الركاب',
-        customerDesc: 'اطلب ركوب، اطلب طعام، استاجر سيارة',
+        subtitle: 'الخدمات',
+        title: 'تطبيق واحد ثلاثة أوضاع',
+        description: 'اختر طريقتك وابدأ الآن',
+        customer: 'عميل',
+        customerDesc: 'تسوق،اركب،وشغّل - كل شيء في مكان واحد',
         customerFeatures: [
-          'اطلب ركوب (باجاج او سيارة)',
-          'اطلب طعام من المطاعم',
-          'استاجر سيارة',
-          'تتبع الرحلة',
-          'الدفع من المحفظة',
-          'زر الطوارئ'
+          'تصفح المطاعم والمواد الغذائية',
+          'أضف للسلة والدفع',
+          'اطلب ركوب أو توصيل',
+          'شراء الرصيد عبر المحفظة',
+          'اشتراك اختياري'
         ],
-        merchant: 'المطاعم والمتاجر',
-        merchantDesc: 'نم أعمالك مع آلاف العملاء',
+        merchant: 'تاجر / متجر',
+        merchantDesc: 'نمّ أعمالك مع العملاء',
         merchantFeatures: [
-          'انشر منتجاتك',
-          'استلم الطلبات',
-          'التحقق عبر NFC',
-          'تتبع التوصيل',
-          'ادارة المخزون',
-          'الدفع الامن'
+          'ارفع صور المنتجات وحدد الأسعار',
+          'إدارة المخزون واستلام الطلبات',
+          'اكسب المال من المبيعات',
+          'دفع عمولات المنصة',
+          'اشتراك اختياري'
         ],
-        driver: 'السائقون',
-        driverDesc: 'اربح من الركوب والتوصيل',
+        driver: 'سائق / رايدر',
+        driverDesc: 'اربح المال من الركوب',
         driverFeatures: [
-          'قبل طلبات الركوب',
-          'الملاحة المباشرة',
-          'الارباح حسب المسافة',
-          'لوحة الارباح',
-          'ادارة السيارة',
-          'السحب الفوري'
+          'حافظ على رصيد الحساب',
+          'شراء الرصيد عبر المحفظة',
+          'قبول طلبات الركوب',
+          'اربح المال من الخدمات',
+          '10% عمولة',
+          'اشتراك اختياري'
         ]
       },
-      location: {
-        subtitle: 'تغطيتنا',
-        title: 'نبدأ من ليس انود ونوسع للصومال',
-        Description: 'نحن الان في ليس انود مع خطط للتوسع.',
-        firstCity: 'المدينةالاولى',
-        lasAnod: 'ليس انود',
-        comingSoon: 'قريبا',
-        cities: ['مقديشو', 'هرجيسا', 'بوساسو', 'بربرة', 'كمبالي', 'بايو', 'كالكو', 'بلدوين']
-      },
-      partners: {
-        subtitle: 'فرصة الاستثمار',
-        title: 'شاركنا',
-        description: 'انضم الينا لجلب النقل الحديث للمدنالصومالية.',
-        investorTitle: 'شريك المدينة',
-        investorDesc: 'استثمر في مدينتك واملك حصة محلية',
-        benefits: [
-          '35% حصة في مدينتك',
-          'منصة تقنية',
-          'الدعم والتدريب',
-          'دعم فني مستمر'
-        ],
-        shareTitle: 'هيكل الاستثمار',
-        investorShare: '35% - المستثمر',
-        eazyrideShare: '65% - EazyRide',
-        cta: 'قدم الآن'
+      benefits: {
+        title: 'اختر طريقتك',
+        customerTitle: 'عميل',
+        customerFor: 'كل من يحتاج ركوب أو طعام.',
+        merchantTitle: 'تاجر',
+        merchantFor: 'المطاعم والمحلات.',
+        driverTitle: 'سائق',
+        driverFor: 'السائقون الذين يريدون الدخل.',
       },
       download: {
-        title: 'ابدأ',
+        title: 'تحميل الآن',
         subtitle: 'تحميل التطبيق',
         button: 'تحميل APK',
         size: '~120 MB'
       },
       footer: {
-        copyright: '© 2026 Haye! EazyRide Somalia',
-        description: 'نحول النقل الحضري.',
+        copyright: '© 2026 Haye! Mobility Global Inc.',
+        description: 'تصميم حركة حضرية.',
         contact: 'التواصل',
         support: 'الدعم',
-        press: 'الشركاء',
+        press: 'الصحافة',
         safety: 'الامان',
         newsletter: 'النشرة',
-        newsletterDesc: 'ابق على اطلاع.',
-        email: 'contact@eazyride.so'
+        newsletterDesc: 'ابق على اطلاع باخر اخبارنا.'
       }
     }
   }
