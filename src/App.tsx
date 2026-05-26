@@ -23,7 +23,7 @@ import {
   TrendingUp
 } from 'lucide-react';
 
-const APK_URL = 'https://github.com/rickross0/eazyride-super-app/raw/master/EazyRide-Haye-v5.1.0.apk';
+const APK_URL = 'https://github.com/rickross0/eazyride-super-app/raw/master/EazyRide-Haye-v5.0.0.apk';
 
 const GlassCard = ({ children, className = "" }: { children: React.ReactNode, className?: string }) => (
   <div className={`backdrop-blur-xl bg-white/[0.03] border border-white/[0.08] rounded-[2.5rem] ${className}`}>
