@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import BashcrawlSection from './BashcrawlSection';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import './i18n';
@@ -515,6 +516,7 @@ export default function App() {
       <LocationSection t={t} />
       <PartnersSection t={t} />
       <PartnerCTA t={t} />
+      <BashcrawlSection />
       <Footer t={t} />
       
       <div className="fixed inset-0 pointer-events-none z-[-1] overflow-hidden">
